@@ -1,0 +1,140 @@
+/* ===== STYLE DE BASE ===== */
+body {
+  background-color: #f5efe6; /* fond beige doux */
+  color: #2b1d1c;            /* texte brun foncé */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+  background-color: #8b6a5c;
+  padding: 12px 0;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== CONTENEUR PRINCIPAL ===== */
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  background-color: #fffdfa;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* ===== IMAGE ===== */
+.image {
+  display: block;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e2d6c7;
+  margin: 10px auto 20px;
+}
+
+/* ===== TITRES ===== */
+h1 {
+  text-align: center;
+  color: #8b6a5c;
+  margin-bottom: 5px;
+}
+h2 {
+  color: #6e5248;
+  border-bottom: 2px solid #e2d6c7;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+h3 {
+  color: #6b554b;
+  margin-top: 10px;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  margin-bottom: 25px;
+  background-color: #f8f4ee;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* ===== LISTES ===== */
+ul {
+  list-style: none; /* on supprime les puces */
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 15px;
+}
+
+/* ===== BARRES DE PROGRESSION ===== */
+.bar {
+  background-color: #e2d6c7; /* fond clair de la barre */
+  border-radius: 10px;
+  overflow: hidden;
+  height: 10px;
+  margin-top: 5px;
+}
+.bar-fill {
+  height: 100%;
+  background-color: #8b6a5c; /* couleur marron */
+  border-radius: 10px;
+}
+
+/* ===== LABELS DE NIVEAU ===== */
+.level {
+  font-size: 13px;
+  color: #6b554b;
+  margin-top: 3px;
+}
+
+/* ===== LIENS ===== */
+a {
+  color: #8b6a5c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  background-color: #8b6a5c;
+  color: #fff;
+  padding: 10px;
+  margin-top: 30px;
+  border-top: 3px solid #e2d6c7;
+}
+
+/* ===== ADAPTATION MOBILE ===== */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+
+
