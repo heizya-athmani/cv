@@ -1,4 +1,4 @@
-/* ===== STYLE DE BASE ===== */
+/* ===== STYLE DE BASE, bien, on reste du marron beige/CREME blanc noir ctt ou alors on modif tt et on s'insipre d'igloo à voir ===== */
 body {
   background-color: #f5efe6; /* fond beige doux */
   color: #2b1d1c;            /* texte brun foncé */
@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 
-/* ===== NAVIGATION ===== */
+/* ===== NAVIGATION css c'est ok voir le html mtn===== */
 nav {
   background-color: #8b6a5c;
   padding: 12px 0;
@@ -23,7 +23,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* ===== CONTENEUR PRINCIPAL ===== */
+/* ===== CONTENEUR PRINCIPAL, ok aussi mais verifier  ===== */
 .container {
   max-width: 850px;
   margin: 40px auto;
@@ -33,7 +33,7 @@ nav a:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* ===== IMAGE ===== */
+/* ===== IMAGE à refaire ça va pas du tout bcp trop grand, sinon on supprime ou===== */
 .image {
   display: block;
   width: 70px;
@@ -44,7 +44,7 @@ nav a:hover {
   margin: 10px auto 20px;
 }
 
-/* ===== TITRES ===== */
+/* ===== TITRES ajouter un peu plus de forme, trop simple ===== */
 h1 {
   text-align: center;
   color: #8b6a5c;
@@ -69,7 +69,7 @@ section {
   border-radius: 10px;
 }
 
-/* ===== LISTES ===== */
+/* ===== LISTES je pense que c'est a modif ===== */
 ul {
   list-style: none; /* on supprime les puces */
   padding: 0;
@@ -79,7 +79,7 @@ li {
   margin-bottom: 15px;
 }
 
-/* ===== BARRES DE PROGRESSION ===== */
+/* ===== BARRES DE PROGRESSION a refaire !!!!===== */
 .bar {
   background-color: #e2d6c7; /* fond clair de la barre */
   border-radius: 8px;
@@ -96,14 +96,14 @@ li {
   transition: width 1s ease-in-out;
 }
 
-/* ===== LABELS DE NIVEAU ===== */
+/* ===== LABELS DE NIVEAU a voir ===== */
 .level {
   font-size: 13px;
   color: #533a2f;
   margin-top: 3px;
 }
 
-/* ===== LIENS ===== */
+/* ===== LIENS nickel pas toucher ou peut etre a voir ===== */
 a {
   color: #8b6a5c;
   text-decoration: none;
@@ -112,7 +112,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* les compétences*/
+/* les compétences, nn revoir les espaces la mise en forme ça va pas du tt*/
 .skill {
 margin-bottom: 18px;
 padding-bottom: 5px;
@@ -123,7 +123,7 @@ padding-bottom: 5px;
   margin-bottom: 4px;
 }
 
-/* ===== FOOTER ===== */
+/* ===== FOOTER nickel ne pas toucher ou legerement a ameliorer===== */
 footer {
   text-align: center;
   background-color: #8b6a5c;
@@ -148,6 +148,43 @@ footer {
     height: 70px;
   }
 }
+
+.bubble { /*bulle pour formation et experience*/
+  background: #fffaf4;           
+  border: 1px solid #e7dbc9;          
+  border-radius: 18px;             
+  box-shadow: 0 8px 24px rgba(0,0,0,.05); 
+  padding: 24px 28px;
+  margin-top: 16px;
+}
+
+.bubble .item + .item {
+  border-top: 1px solid #e7dbc9;      /* séparateur entre les articles */
+  margin-top: 16px;
+  padding-top: 16px;
+}
+
+.bubble h3 {
+  color: #5d463a;     
+  margin-bottom: 4px;
+}
+
+.bubble .item-meta {
+  font-size: 0.95rem;
+  color: #7c6f64;
+}
+
+.bubble .bullets li {
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.bubble span:hover {
+  transform: scale(1.05);
+  background-color: #d2b89f;
+
+}
+
 
 
 

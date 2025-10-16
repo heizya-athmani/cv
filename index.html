@@ -7,9 +7,23 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
+<!-- ===== NAVIGATION ===== -->
+<nav class="navbar">
+  <div class="nav-container">
+    <h1 class="logo">MonPortfolio</h1>
+    <ul class="nav-links">
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#experience">Expérience</a></li>
+      <li><a href="#formation">Formation</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
 <body>
   <div class="page">
-    <!-- En-tête -->
+    <!-- En-tête modif la photo centrer mon texte  -->
     <header class="header">
       <img class="avatar" src="profil.webp" alt="Photo de profil de Heizya ATHMANI" />
       <div>
@@ -22,13 +36,15 @@
       </div>
     </header>
 
+<!--EXPERIENCE-->
     <main class="grid">
-      <!-- Colonne principale -->
-      <section class="col main">
+       <section class="col main">
 
         <section aria-labelledby="exp-title" class="block">
           <h2 id="exp-title" class="block-title">Expérience</h2>
 
+<!--1er block experience-->
+        <div class="bubble">  
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Bootcamp Cybersécurité</h3>
@@ -40,7 +56,10 @@
               <li>Participer à la stratégie de sécurité de l’entreprise.</li>
             </ul>
           </article>
+        </div>
 
+<!--2eme block exp-->
+        <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Médiatrice culturelle — Accueil (Service civique)</h3>
@@ -50,7 +69,10 @@
               <li>Accueil des publics, création/animation d’ateliers et enquêtes auprès des usagers.</li>
             </ul>
           </article>
+        </div>
 
+<!--3eme block exp-->
+        <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Stagiaire assistante de manager</h3>
@@ -60,41 +82,52 @@
               <li>Création du mode opératoire d’une nouvelle application agents, préparation de réunions et support.</li>
             </ul>
           </article>
-        </section>
-
+          </div>
+      
+<!--FORMATION-->
         <section aria-labelledby="edu-title" class="block">
           <h2 id="edu-title" class="block-title">Formation</h2>
 
+<!--1er block-->
+          <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Bachelor Cybersécurité</h3>
               <span class="item-meta">Efficom — Lille — 09/2025 → 07/2028</span>
             </div>
           </article>
+          </div>
 
+<!--2eme block-->
+          <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Formation Cybersécurité</h3>
               <span class="item-meta">M2i — Lille — 05/2025 → 07/2025</span>
             </div>
           </article>
+          </div>
 
+<!--3eme block-->
+          <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">BTS Support à l’Action Managériale</h3>
               <span class="item-meta">Lycée André Lurçat — Maubeuge — 2022</span>
             </div>
           </article>
-
+          </div>
+<!--4eme block-->
+          <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Baccalauréat Gestion-Administration</h3>
               <span class="item-meta">Lycée André Lurçat — Maubeuge — 2020</span>
             </div>
           </article>
-        </section>
+        </div>
 
-     
+<!--hobby trop bancale, manque d'originalité à retravailler mais pas prioritaire-->
     <section id="interets">
   <h2>Centres d’intérêt</h2>
   <ul class="interets">
@@ -106,7 +139,7 @@
 </section>
 
 
-      <!-- Colonne latérale -->
+<!-- Contact nickel mais ajt une bull sur chaque lien cliquable-->
       <aside class="col side">
         <section class="side-block">
           <h2 class="side-title">Contact</h2>
@@ -117,6 +150,7 @@
           </ul>
         </section>
 
+<!-- competences à ameliorer mais pas prioritaire-->
         <section class="side-block">
           <h2 class="side-title">Compétences</h2>
           <div class="skill">
@@ -152,6 +186,7 @@
       </aside>
     </main>
 
+<!--certainement a ameliorer-->
     <footer class="footer">
       <span>Références sur demande</span>
     </footer>
