@@ -251,10 +251,21 @@ footer {
   box-shadow: 0 10px 22px rgba(0,0,0,.12);
   transform: translateY(-1px);
 }
+ /* texte intro a centrer*/
 
+ header {
+  text-align: center;
+  margin-bottom: 40px;
+ }
 
+ header h1 {
+  margin-bottom: 10px;
+ }
 
-
-
+ header p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+ }
 
 
