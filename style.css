@@ -220,6 +220,37 @@ footer {
   background-color: #d2b89f;
 
 }
+/* bulles contact*/
+#contact .contact-list,
+#contact .list-plain{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#contact .contact-list a,
+#contact .list-plain a{
+  display: block;
+  padding: 10px 14px;
+  background: #fffaf4;
+  color: #8b6a5c;
+  border: 1px solid #e7dbc9;
+  border-radius: 9999px;
+  box-shadow: 0 6px 16px rgba(0,0,0,.08);
+  text-decoration: none;
+  font-weight: 600;
+  transition:.2s ease, box-shadow .2s ease, transform .12s ease;
+}
+
+#contact .contact-list a:hover,
+#contact .list-plain a:hover{
+  background: #f3e7da;
+  box-shadow: 0 10px 22px rgba(0,0,0,.12);
+  transform: translateY(-1px);
+}
 
 
 
