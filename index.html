@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,61 +8,39 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-
-  // 1️⃣ Message de bienvenue
-  alert("Bienvenue sur mon CV ✨");
-
-  // 2️⃣ Changement de thème clair/sombre
-  const btn = document.getElementById("themeToggle");
-  btn.addEventListener("click", () => {
-    document.body.classList.toggle("dark");
-    btn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
-  });
-
-});
-</script>
-
-
 <!-- ===== NAVIGATION ===== -->
- 
+
 <nav class="navbar">
   <div class="nav-container">
-    <h1 class="logo">MonPortfolio</h1>
-    <ul class="nav-links">
-      <li><a href="#profil">Profil</a></li>
-      <li><a href="#experience">Expérience</a></li>
-      <li><a href="#formation">Formation</a></li>
-      <li><a href="#competences">Compétences</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <button id="themeToggle" class="theme-btn">🌙</button>
+    <a class="nav-links" href="#experiences">Expérience</a>
+    <a class="nav-links" href="#formation">Formation</a>
+    <a class="nav-links" href="#competences">Compétences</a>
+    <a class="nav-links" href="#contact">Contact</a>
   </div>
 </nav>
 
 <body>
   <header>
-      <div>
-        <h1 class="name">Heizya ATHMANI</h1>
-        <p class="role">Alternance — Cybersécurité / Support & Réseaux</p>
-        <p class="summary">
-          Curieuse et déterminée, je m'oriente vers la cybersécurité avec l'envie d'agir là où la sécurité se
-          construit. Je recherche une alternance pour transformer cette ambition en expertise terrain.
-        </p>
-      </div>
-    </header>
+    <div>
+      <h1 class="name">Mon Portfolio</h1>
+      <p class="role">Alternance — Cybersécurité / Support & Réseaux</p>
+      <p class="summary">
+        Curieuse et déterminée, je m'oriente vers la cybersécurité avec l'envie d'agir là où la sécurité se
+        construit. Je recherche une alternance pour transformer cette ambition en expertise terrain.
+      </p>
+    </div>
+  </header>
 
-<!--EXPERIENCE-->
-    <main class="grid">
-       <section class="col main">
+  <!--EXPERIENCE-->
+  <main class="grid">
+    <section class="col main">
 
-        <section id="experience" section aria-labelledby="exp-title" class="block">
-          <h2 id="exp-title" class="block-title">Expérience</h2>
+      <section id="experience" aria-labelledby="exp-title" class="block">
+        <h2 id="exp-title" class="block-title">Expérience</h2>
 
-<!--1er block experience-->
+        <!--1er block experience-->
 
-        <div class="bubble">  
+        <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Bootcamp Cybersécurité</h3>
@@ -75,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
           </article>
         </div>
 
-<!--2eme block exp-->
+        <!--2eme block exp-->
         <div class="bubble">
           <article class="item">
             <div class="item-head">
@@ -88,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
           </article>
         </div>
 
-<!--3eme block exp-->
+        <!--3eme block exp-->
         <div class="bubble">
           <article class="item">
             <div class="item-head">
@@ -96,46 +75,48 @@ document.addEventListener("DOMContentLoaded", function() {
               <span class="item-meta">SNCF — 05/2021 → 08/2021 (4 mois)</span>
             </div>
             <ul class="bullets">
-              <li>Création du mode opératoire d’une nouvelle application agents, préparation de réunions et support.</li>
+              <li>Création du mode opératoire d’une nouvelle application agents, préparation de réunions et support.
+              </li>
             </ul>
           </article>
-          </div>
-      
-<!--FORMATION-->
-        <section id="formation" section aria-labelledby="edu-title" class="block">
-          <h2 id="edu-title" class="block-title">Formation</h2>
+        </div>
+      </section>
 
-<!--1er block-->
-          <div class="bubble">
+      <!--FORMATION-->
+      <section id="formation" section aria-labelledby="edu-title" class="block">
+        <h2 id="edu-title" class="block-title">Formation</h2>
+
+        <!--1er block-->
+        <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Bachelor Cybersécurité</h3>
               <span class="item-meta">Efficom — Lille — 09/2025 → 07/2028</span>
             </div>
           </article>
-          </div>
+        </div>
 
-<!--2eme block-->
-          <div class="bubble">
+        <!--2eme block-->
+        <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Formation Cybersécurité</h3>
               <span class="item-meta">M2i — Lille — 05/2025 → 07/2025</span>
             </div>
           </article>
-          </div>
+        </div>
 
-<!--3eme block-->
-          <div class="bubble">
+        <!--3eme block-->
+        <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">BTS Support à l’Action Managériale</h3>
               <span class="item-meta">Lycée André Lurçat — Maubeuge — 2022</span>
             </div>
           </article>
-          </div>
-<!--4eme block-->
-          <div class="bubble">
+        </div>
+        <!--4eme block-->
+        <div class="bubble">
           <article class="item">
             <div class="item-head">
               <h3 class="item-title">Baccalauréat Gestion-Administration</h3>
@@ -143,77 +124,76 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
           </article>
         </div>
+      </section>
 
-<!--hobby trop bancale, manque d'originalité à retravailler mais pas prioritaire-->
-    <section id="interets">
-  <h2>Centres d’intérêt</h2>
-  <div class="bubble">
-  <ul class="interets">
-    <li>Lectures: thrillers, romance, développement personnel, psychologique</li>
-    <li>Jeux énigmes, sudoku</li>
-    <li>Voyages: Vietnam, Cambodge</li>
-    <li>Root-Me : pentest, stéganographie, web, forensics</li>
-  </ul>
-</div>
-</section>
+      <!--hobby trop bancale, manque d'originalité à retravailler mais pas prioritaire-->
+      <section id="interets">
+        <h2>Centres d’intérêt</h2>
+        <div class="bubble">
+          <ul class="interets">
+            <li>Lectures: thrillers, romance, développement personnel, psychologique</li>
+            <li>Jeux énigmes, sudoku</li>
+            <li>Voyages: Vietnam, Cambodge</li>
+            <li>Root-Me : pentest, stéganographie, web, forensics</li>
+          </ul>
+        </div>
+      </section>
 
 
-<!-- Contact nickel mais ajt une bull sur chaque lien cliquable-->
+      <!-- Contact mais mettre en bas-->
       <aside class="col side">
         <section id="contact" section class="side-block">
           <h2 class="side-title">Contact</h2>
           <div class="bubble">
-          <ul class="list-plain">
-            <li><a href="mailto:heizya25@gmail.com">Envoyer un E-mail</a></li>
-            <li><a href="https://www.linkedin.com/in/heizya-athmani-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Mon profil Linkedln</a></li>
-            <li><a href="https://github.com/heizya-athmani" target="_blank">Mon Github </a></li>
-          </ul>
+            <ul class="list-plain">
+              <li><a href="mailto:heizya25@gmail.com">Envoyer un E-mail</a></li>
+              <li><a
+                  href="https://www.linkedin.com/in/heizya-athmani-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  target="_blank">Mon profil Linkedln</a></li>
+              <li><a href="https://github.com/heizya-athmani" target="_blank">Mon Github </a></li>
+            </ul>
           </div>
         </section>
 
-<!-- competences à ameliorer mais pas prioritaire-->
+        <!-- competences à ameliorer mais pas prioritaire-->
         <section id="competences" section class="side-block">
           <div class="bubble">
-          <h2 class="side-title">Compétences</h2>
-          <div class="skill">
-            <span>Réseaux</span>
-            <div class="bar"><i style="width:75%"></i></div>
-            <small>Intermédiaire</small>
-          </div>
-          <div class="skill">
-            <span>Systèmes (Windows / Linux)</span>
-            <div class="bar"><i style="width:70%"></i></div>
-            <small>Intermédiaire</small>
-          </div>
-          <div class="skill">
-            <span>html/css</span>
-            <div class="bar"><i style="width:80%"></i></div>
-            <small>Débutant</small>
-          </div>
-          <div class="skill">
-            <span>Résistance au stress</span>
-            <div class="bar"><i style="width:85%"></i></div>
-            <small>Élevé</small>
-          </div>
+            <h2 class="side-title">Compétences</h2>
+            <div class="skill">
+              <span>Réseaux</span>
+              <div class="bar"><i style="width:75%"></i></div>
+              <small>Intermédiaire</small>
+            </div>
+            <div class="skill">
+              <span>Systèmes (Windows / Linux)</span>
+              <div class="bar"><i style="width:70%"></i></div>
+              <small>Intermédiaire</small>
+            </div>
+            <div class="skill">
+              <span>html/css</span>
+              <div class="bar"><i style="width:80%"></i></div>
+              <small>Débutant</small>
+            </div> 
           </div>
         </section>
 
         <section class="side-block">
           <div class="bubble">
-          <h2 class="side-title">Langues</h2>
-          <div class="skill">
-            <span>Anglais</span>
-            <div class="bar"><i style="width:60%"></i></div>
-            <small>Intermédiaire</small>
-          </div>
+            <h2 class="side-title">Langues</h2>
+            <div class="skill">
+              <span>Anglais</span>
+              <div class="bar"><i style="width:60%"></i></div>
+              <small>Intermédiaire</small>
+            </div>
           </div>
         </section>
       </aside>
-    </main>
 
-<!--certainement a ameliorer-->
-    <footer class="footer">
-      <span>© 2025 Heizya Athmani. Tous droits réservés.</span>
-    </footer>
+
+  <!--certainement a ameliorer-->
+  <footer class="footer">
+    <span>© 2025 Heizya Athmani. Tous droits réservés.</span>
+  </footer>
 </body>
+
 </html>
